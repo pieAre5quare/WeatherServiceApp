@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WeatherServiceApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WeatherServiceApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WeatherServiceApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WeatherServiceApp.props",
+      "PackagePath": "build\\WeatherServiceApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WeatherServiceApp.props",
+      "PackagePath": "buildMultiTargeting\\WeatherServiceApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WeatherServiceApp.props",
+      "PackagePath": "buildTransitive\\WeatherServiceApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

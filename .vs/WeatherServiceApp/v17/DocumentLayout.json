@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE0BA477-4C7A-4429-BDC2-6DEEC0A3C0F6}|WeatherServiceApp\\WeatherServiceApp.csproj|c:\\users\\acpir\\source\\repos\\weatherserviceapp\\weatherserviceapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE0BA477-4C7A-4429-BDC2-6DEEC0A3C0F6}|WeatherServiceApp\\WeatherServiceApp.csproj|solutionrelative:weatherserviceapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE0BA477-4C7A-4429-BDC2-6DEEC0A3C0F6}|WeatherServiceApp\\WeatherServiceApp.csproj|c:\\users\\acpir\\source\\repos\\weatherserviceapp\\weatherserviceapp\\components\\pages\\states.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE0BA477-4C7A-4429-BDC2-6DEEC0A3C0F6}|WeatherServiceApp\\WeatherServiceApp.csproj|solutionrelative:weatherserviceapp\\components\\pages\\states.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE0BA477-4C7A-4429-BDC2-6DEEC0A3C0F6}|WeatherServiceApp\\WeatherServiceApp.csproj|c:\\users\\acpir\\source\\repos\\weatherserviceapp\\weatherserviceapp\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE0BA477-4C7A-4429-BDC2-6DEEC0A3C0F6}|WeatherServiceApp\\WeatherServiceApp.csproj|solutionrelative:weatherserviceapp\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE0BA477-4C7A-4429-BDC2-6DEEC0A3C0F6}|WeatherServiceApp\\WeatherServiceApp.csproj|c:\\users\\acpir\\source\\repos\\weatherserviceapp\\weatherserviceapp\\dto\\cityandzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE0BA477-4C7A-4429-BDC2-6DEEC0A3C0F6}|WeatherServiceApp\\WeatherServiceApp.csproj|solutionrelative:weatherserviceapp\\dto\\cityandzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE0BA477-4C7A-4429-BDC2-6DEEC0A3C0F6}|WeatherServiceApp\\WeatherServiceApp.csproj|c:\\users\\acpir\\source\\repos\\weatherserviceapp\\weatherserviceapp\\dto\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE0BA477-4C7A-4429-BDC2-6DEEC0A3C0F6}|WeatherServiceApp\\WeatherServiceApp.csproj|solutionrelative:weatherserviceapp\\dto\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE0BA477-4C7A-4429-BDC2-6DEEC0A3C0F6}|WeatherServiceApp\\WeatherServiceApp.csproj|c:\\users\\acpir\\source\\repos\\weatherserviceapp\\weatherserviceapp\\dto\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE0BA477-4C7A-4429-BDC2-6DEEC0A3C0F6}|WeatherServiceApp\\WeatherServiceApp.csproj|solutionrelative:weatherserviceapp\\dto\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE0BA477-4C7A-4429-BDC2-6DEEC0A3C0F6}|WeatherServiceApp\\WeatherServiceApp.csproj|c:\\users\\acpir\\source\\repos\\weatherserviceapp\\weatherserviceapp\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE0BA477-4C7A-4429-BDC2-6DEEC0A3C0F6}|WeatherServiceApp\\WeatherServiceApp.csproj|solutionrelative:weatherserviceapp\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "States.razor",
+              "DocumentMoniker": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\Components\\Pages\\States.razor",
+              "RelativeDocumentMoniker": "WeatherServiceApp\\Components\\Pages\\States.razor",
+              "ToolTip": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\Components\\Pages\\States.razor",
+              "RelativeToolTip": "WeatherServiceApp\\Components\\Pages\\States.razor",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T14:49:02.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LocationService.cs",
+              "DocumentMoniker": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\Services\\LocationService.cs",
+              "RelativeDocumentMoniker": "WeatherServiceApp\\Services\\LocationService.cs",
+              "ToolTip": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\Services\\LocationService.cs",
+              "RelativeToolTip": "WeatherServiceApp\\Services\\LocationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:40:12.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Region.cs",
+              "DocumentMoniker": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\DTO\\Region.cs",
+              "RelativeDocumentMoniker": "WeatherServiceApp\\DTO\\Region.cs",
+              "ToolTip": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\DTO\\Region.cs",
+              "RelativeToolTip": "WeatherServiceApp\\DTO\\Region.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:37:58.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "WeatherServiceApp\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "WeatherServiceApp\\Components\\Pages\\Weather.razor",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T14:16:46.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\DTO\\State.cs",
+              "RelativeDocumentMoniker": "WeatherServiceApp\\DTO\\State.cs",
+              "ToolTip": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\DTO\\State.cs",
+              "RelativeToolTip": "WeatherServiceApp\\DTO\\State.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:36:59.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "WeatherServiceApp\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "WeatherServiceApp\\Components\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T14:20:38.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CityAndZone.cs",
+              "DocumentMoniker": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\DTO\\CityAndZone.cs",
+              "RelativeDocumentMoniker": "WeatherServiceApp\\DTO\\CityAndZone.cs",
+              "ToolTip": "C:\\Users\\acpir\\source\\repos\\WeatherServiceApp\\WeatherServiceApp\\DTO\\CityAndZone.cs",
+              "RelativeToolTip": "WeatherServiceApp\\DTO\\CityAndZone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:18:46.439Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

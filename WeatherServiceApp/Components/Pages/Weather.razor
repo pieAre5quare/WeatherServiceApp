@@ -1,0 +1,67 @@
+﻿@page "/weather"
+@using WeatherServiceApp.DTO
+@using WeatherServiceApp.Services
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
+
+<PageTitle>Weather</PageTitle>
+
+<h1>Weather</h1>
+
+<p>This component demonstrates showing data.</p>
+
+@if (regions == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <EditForm OnSubmit="Submit" FormName="Form" Model="Model">
+        <div class="form-group">
+           
+            <InputSelect @bind-Value="SelectedRegionId"  class="form-control">
+                <option value="32">Select a Region</option>
+                @foreach(var region in regions)
+                {
+                    <option value="@region.Id">@($"{region.Name} ({string.Join(", ", states.Where(x => x.RegionId == region.Id).Select(x => x.Abbreviation))})")</option>
+                }
+            </InputSelect>
+            <button type="submit" class="btn btn-primary">Alerts</button>
+        </div>
+
+    </EditForm>   
+
+ 
+
+}
+
+@code {
+    private List<Region> regions;
+    private List<State> states;
+    private string SelectedRegionId { get; set; } = "-1";
+    private Region Model { get; set; } = new();
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        var test = new LocationService();
+        // Simulate asynchronous loading to demonstrate streaming rendering
+        await Task.Delay(500);
+        regions = test.Regions.ToList();
+        states = test.States.ToList();
+
+
+    }
+
+    private void OnValueChanged(string value)
+    {
+        // Assign the selected value to the Model
+        SelectedRegionId = value;
+    }
+
+    public void Submit()
+    {
+        Navigation.NavigateTo($"states/{SelectedRegionId}");
+    }
+
+}

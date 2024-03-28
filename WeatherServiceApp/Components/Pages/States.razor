@@ -1,0 +1,44 @@
+﻿@page "/states/regionid:int"
+@using WeatherServiceApp.DTO
+@using WeatherServiceApp.Services
+
+<h3>States</h3>
+<EditForm Model="SelectedStateId" OnSubmit="Submit" FormName="Form">
+    <div class="form-group">
+
+        <InputSelect @bind-Value="SelectedStateId" class="form-control">
+            <option value="-1">Select a State</option>
+            @foreach (var state in states)
+            {
+                <option value="@state.Name">@($"{state.Name}")</option>
+            }
+        </InputSelect>
+        <button type="submit" class="btn btn-primary">Alerts</button>
+    </div>
+
+</EditForm>
+@code {
+    [Parameter]
+    public int RegionId { get; set; }
+
+    private List<Region> regions;
+    private List<State> states;
+    private int SelectedStateId { get; set; } = -1;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        var test = new LocationService();
+        // Simulate asynchronous loading to demonstrate streaming rendering
+        await Task.Delay(500);
+        regions = test.Regions.ToList();
+        states = test.States.Where(s => s.RegionId == RegionId).ToList();
+
+     
+    }
+
+    public void Submit()
+    {
+        //Navigation.NavigateTo("states");
+    }
+}
